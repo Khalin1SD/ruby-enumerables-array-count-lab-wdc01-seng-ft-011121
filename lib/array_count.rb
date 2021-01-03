@@ -1,8 +1,6 @@
 def count_strings(array)
   
-  array.count do |string|
-    string = String
-  end
+  array.count { |x| x = String }
   
 end
 
